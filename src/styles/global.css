@@ -1,0 +1,326 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.developer-card {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.developer-card > img {
+  border-radius: 10px;
+}
+
+.developer-card > .card-informations {
+  display: flex;
+  align-items: center;
+}
+
+.developer-card > .card-informations > .developer {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.developer-card > .card-informations > .developer > .developer-name {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.developer-card > .card-informations > .developer > .current-position {
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+.developer-card > .card-informations > .icon {
+  margin-left: auto;
+}
+
+.button-disabled[disabled] {
+  pointer-events: none;
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.complete-subscription {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flutter-header-text {
+  margin: 0 0.5rem;
+  padding: 0 0.75rem;
+  background-color: #3297fd;
+  color: #fff;
+}
+
+.header-buttons,
+.share-buttons,
+.complete-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.share-buttons div {
+  color: #000;
+}
+
+.complete-buttons {
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.share-buttons {
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 640px) {
+  .header-buttons,
+  .share-buttons,
+  .complete-buttons {
+    flex-direction: column;
+  }
+}
+
+:root {
+  --js-color: #fcdc00;
+}
+.ticket.hid {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -999;
+}
+
+.ticket {
+  border-color: #ec008c;
+  border-style: solid;
+  background: linear-gradient(145deg, #f05a28 15%, #ec008c 100%);
+  color: #fff;
+  display: flex;
+}
+
+.ticket.large {
+  padding: 3rem 6rem 3rem 4rem;
+  border-width: 6px;
+  border-radius: 30px;
+  min-width: 1200px;
+  min-height: 627px;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --titulo: 12px !important;
+    --nome: 14px !important;
+    --modo: 6px !important;
+    --img-size: 60px !important;
+    --logo-size: 36px !important;
+    --data: 10px !important;
+    --infos: 8px !important;
+    --id-ticket: 8px !important;
+    --qrcode-size: 36px !important;
+    --meetup-url: 8px !important;
+    --margin-divs: 1.75rem !important;
+    --margin-img: 0.5rem !important;
+  }
+  .ticket {
+    max-width: 350px !important;
+    padding: 1rem 2rem 1rem 1.5rem !important;
+    border-width: 2px !important;
+    border-radius: 10px !important;
+  }
+}
+
+@media (max-width: 3000px) {
+  :root {
+    --titulo: 18px;
+    --nome: 24px;
+    --modo: 12px;
+    --img-size: 120px;
+    --logo-size: 64px;
+    --data: 16px;
+    --infos: 14px;
+    --id-ticket: 12px;
+    --qrcode-size: 100px;
+    --meetup-url: 10px;
+    --margin-divs: 2rem;
+    --margin-img: 1rem;
+  }
+  .ticket {
+    max-width: 600px;
+    padding: 1.5rem 2.5rem 1.5rem 2rem;
+    border-width: 4px;
+    border-radius: 20px;
+  }
+}
+
+.ticket .column:first-child {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.ticket .meetup {
+  background-color: #000;
+  padding: 0.2rem 0.5rem;
+  display: flex;
+  width: max-content;
+}
+
+.ticket.large .meetup {
+  font-size: 38px;
+  margin-bottom: 1.75rem;
+  font-weight: bold;
+}
+
+.ticket.small .meetup {
+  font-size: var(--titulo);
+  margin-bottom: var(--margin-divs);
+  font-weight: bold;
+}
+
+.ticket .meetup .js-text {
+  margin: 0 0.25rem;
+  color: var(--js-color);
+}
+
+.ticket.large .participante {
+  display: flex;
+  margin-bottom: 3.75rem;
+}
+
+.ticket.small .participante {
+  display: flex;
+  margin-bottom: var(--margin-divs);
+}
+
+.ticket .participante img {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.ticket.large .participante img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-right: 1.75rem;
+}
+
+.ticket.small .participante img {
+  width: var(--img-size);
+  height: var(--img-size);
+  border-radius: 100px;
+  margin-right: var(--margin-img);
+}
+
+.ticket .participante .nome {
+  font-weight: bold;
+  background-color: #000;
+  color: #fcdc00;
+  padding: 0.1rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ticket.large .participante .nome {
+  font-size: 56px;
+}
+
+.ticket.small .participante .nome {
+  font-size: var(--nome);
+}
+
+.ticket.large .participante .modo {
+  font-size: 26px;
+}
+
+.ticket.small .participante .modo {
+  font-size: var(--modo);
+}
+
+.ticket .infos {
+  display: flex;
+}
+
+.ticket.large .infos img {
+  width: 150px;
+  height: 150px;
+  margin-right: 1.75rem;
+}
+
+.ticket.small .infos img {
+  width: var(--logo-size);
+  height: var(--logo-size);
+  margin-right: var(--margin-img);
+}
+
+.ticket.large .infos .data {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.ticket.small .infos .data {
+  font-size: var(--data);
+  font-weight: bold;
+}
+
+.ticket.large .infos .informacoes-modo {
+  font-size: 30px;
+}
+
+.ticket.small .infos .informacoes-modo {
+  font-size: var(--infos);
+}
+
+.ticket .column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 25%;
+}
+
+.ticket.large .id-ticket {
+  font-size: 26px;
+}
+
+.ticket.small .id-ticket {
+  font-size: var(--id-ticket);
+}
+
+.ticket .urls {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ticket .urls .qrcode {
+  box-shadow: 0px 4px 6px rgba(236, 0, 140, 1);
+}
+
+.ticket.large .urls .qrcode {
+  width: 180px;
+  height: 180px;
+}
+
+.ticket.small .urls .qrcode {
+  width: var(--qrcode-size);
+  height: var(--qrcode-size);
+}
+
+.ticket.large .urls .site-url {
+  font-size: 24px;
+}
+
+.ticket.small .urls .site-url {
+  font-size: var(--meetup-url);
+}

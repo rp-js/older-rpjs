@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Amir Elemam",
+    "role": "Senior Backend Software Engineer",
+    "image": "/speakers/AmirElemam.jpeg",
+    "lecture": "Threads em Node.js!"
+  },
+
+  {
+    "name": "Luiz Froes",
+    "role": "CTO na Complette",
+    "image": "/speakers/LuizFroes.jpeg",
+    "lecture": "Os desafios dos desenvolvedores no mercado atual"
+  },
+  {
+    "name": "Pedro Luís Brilhadori",
+    "role": "Front End Developer",
+    "image": "/speakers/PedroLuis.jpeg",
+    "lecture": "Consumo de apis usando JavaScript"
+  }
+]
