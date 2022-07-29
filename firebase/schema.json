@@ -4,11 +4,11 @@
       "id": "123123",
       "name": "3° meetup JavaScript!",
       "date": "2022-09-27:19:00:00",
-      "address": {
-        "street": "",
-        "latitude": 0,
-        "longitude": 0
-      }
+      "address": "",
+      "neighBorHood": "teste",
+      "numberAddress": "",
+      "latitude": 0,
+      "longitude": 0
     }
   ],
 
