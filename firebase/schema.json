@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "123123",
+      "name": "3° meetup JavaScript!",
+      "date": "2022-09-27:19:00:00",
+      "address": {
+        "street": "",
+        "latitude": 0,
+        "longitude": 0
+      }
+    }
+  ],
+
+  "subscriptions": [
+    {
+      "eventId": "123123",
+      "userId": "aofj1i3",
+      "isRemote": false,
+      "ticketUrl": "",
+      "ticketNumber": 123123
+    }
+  ],
+
+  "users": [
+    {
+      "id": "aofj1i3",
+      "email": "teste@gmail.com",
+      "name": "Pedro Luís Brilhadori",
+      "image": "https://github.com/PedroLuisBrilhadori.png",
+      "phone": "123456789",
+      "profileIsComplete": true
+    }
+  ]
+}
