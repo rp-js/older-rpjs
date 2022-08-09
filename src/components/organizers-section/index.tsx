@@ -48,7 +48,7 @@ const OrganizersSection = () => (
     <h1 className={tw(`text-white text-4xl lg:text-7xl font-bold text-center`)}>Organizadores</h1>
     <div className={tw(`flex flex-wrap my-10`)}>
       {team.map((organizer: IOrganizer) => (
-        <div key={organizer.name} className={`${tw(`w-full md:w-1/2 lg:w-1/4 p-8`)} developer-card`}>
+        <div className={`${tw(`w-full md:w-1/2 lg:w-1/4 p-8`)} developer-card`}>
           <img src={organizer.image} alt={organizer.linkedinLink} />
           <div className="card-informations">
             <div className="developer">
