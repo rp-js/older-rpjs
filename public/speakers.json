@@ -1,21 +1,16 @@
 [
   {
-    "name": "Amir Elemam",
-    "role": "Senior Backend Software Engineer",
-    "image": "/speakers/AmirElemam.jpeg",
-    "lecture": "Threads em Node.js!"
-  },
-
-  {
-    "name": "Luiz Froes",
-    "role": "CTO na Complette",
-    "image": "/speakers/LuizFroes.jpeg",
-    "lecture": "Os desafios dos desenvolvedores no mercado atual"
+    "name": "Fernando H. Correia",
+    "role": "Tech Lead na QuickDev",
+    "image": "/speakers/fernando.jpg",
+    "lecture": "Backend: Vida do Programador",
+    "redirect": "https://fernandohcorrea.com.br/"
   },
   {
-    "name": "Pedro Luís Brilhadori",
-    "role": "Front End Developer",
-    "image": "/speakers/PedroLuis.jpeg",
-    "lecture": "Consumo de apis usando JavaScript"
+    "name": "Thiago Alcarás",
+    "role": "Desenvolvedor de sistemas na PicPay",
+    "image": "/speakers/thiago.jpg",
+    "lecture": "Programação reativa com Angular: recebendo notificações na aplicação",
+    "redirect": "https://www.linkedin.com/in/thiago-alcaras/"
   }
 ]
