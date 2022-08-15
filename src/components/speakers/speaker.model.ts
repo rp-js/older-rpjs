@@ -4,4 +4,5 @@ export interface Speaker {
   image: string;
   description: string;
   lecture: string;
+  redirect: string;
 }

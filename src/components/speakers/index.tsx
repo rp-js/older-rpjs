@@ -13,8 +13,11 @@ const SpeakerComponent = ({ speakers, style }: SpeakersConfig) => {
   return (
     <div className={tw(`${styles}`)}>
       {speakers?.map((speaker) => (
-        <div
+        <a
           key={speaker.name}
+          href={speaker?.redirect}
+          target="_blank"
+          rel="noreferrer"
           className={tw(
             `xl:w-1/3 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20
                 xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105`,
@@ -36,7 +39,7 @@ const SpeakerComponent = ({ speakers, style }: SpeakersConfig) => {
             <p className={tw(`uppercase text-md text-gray-700 text-center pb-1`)}>{speaker.lecture}</p>
             <p className={tw(`text-gray-700 text-center pb-1 text-sm`)}>{speaker.description}</p>
           </div>
-        </div>
+        </a>
       ))}
     </div>
   );
