@@ -37,7 +37,7 @@ const HeroSection = () => {
         <div className={tw(`max-w-xl mx-auto`)}>
           <p className={tw(`mt-10 text-gray-800 text-center text-xl lg:text-3xl`)}>
             <a href={discordLink} className={tw(`hover:underline`)}>
-              Dia 26/08 as 19:00 na UNAERP
+              Dia 26/08 às 19:15 na UNAERP
             </a>
           </p>
         </div>
