@@ -15,7 +15,7 @@ const ParticipateSection = () => (
             <div className={tw(`flex items-center mb-2`)}>
               <div className={tw(`text-xl`)}>Presencial</div>
             </div>
-            <p className={tw(`leading-loose`)}>UNAERP 26/08 às 19:15</p>
+            <p className={tw(`leading-loose`)}>Teatro da UNAERP 26/08 às 19:15</p>
             <p className={tw(`leading-loose text-gray-800 mb-2`)}>Av. Costábile Romano, 2201 - Ribeirânia</p>
             <LinkButton linkTo="https://goo.gl/maps/yTuzFGhqa8bMYMtb7">
               <div className={tw(`flex flex-row items-center`)}>
