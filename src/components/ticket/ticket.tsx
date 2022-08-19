@@ -30,13 +30,11 @@ export const TicketComponent = ({
       <footer className="infos">
         <img src="logo.svg" alt="logo rpjs" />
         <div>
-          <div className="data">25 de julho às 19 horas</div>
+          <div className="data">26 de Agosto às 19:15 horas</div>
           {modo === `Presencial` ? (
             <>
-              <div className="informacoes-modo">Dabi Business Park</div>
-              <div className="informacoes-modo">
-                R. Gen. Augusto Soares dos Santos, 100 - Parque Industrial Lagoinha
-              </div>
+              <div className="informacoes-modo">Teatro da UNAERP</div>
+              <div className="informacoes-modo">Av. Costábile Romano, 2201 - Ribeirânia</div>
             </>
           ) : (
             <>
