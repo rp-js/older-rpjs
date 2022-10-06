@@ -1,21 +1,26 @@
 [
   {
-    "name": "Amir Elemam",
-    "role": "Senior Backend Software Engineer",
-    "image": "/speakers/AmirElemam.jpeg",
-    "lecture": "Threads em Node.js!"
-  },
-
-  {
-    "name": "Luiz Froes",
-    "role": "CTO na Complette",
-    "image": "/speakers/LuizFroes.jpeg",
-    "lecture": "Os desafios dos desenvolvedores no mercado atual"
+    "name": "Andréia Cristina",
+    "role": "Dev FullStack na RTE Rodonaves | criadora de conteúdo no @codedeia",
+    "image": "/speakers/andreiaCristina.jfif",
+    "lecture": "A importância de conhecer UX sendo frontend."
   },
   {
-    "name": "Pedro Luís Brilhadori",
-    "role": "Front End Developer",
-    "image": "/speakers/PedroLuis.jpeg",
-    "lecture": "Consumo de apis usando JavaScript"
+    "name": "João Bernardo",
+    "role": "FullStack Developer",
+    "image": "/speakers/joaoBernardo.jfif",
+    "lecture": "Impostor profissional na web"
+  },
+  {
+    "name": "Luiz Fifolato",
+    "role": "Analista De Desenvolvimento NA TOTVS",
+    "image": "/speakers/luizFifolato.jfif",
+    "lecture": "Backend usando o framework adonisjs"
+  },
+  {
+    "name": "Naiara Souza",
+    "role": "Analista de Desenvolvimento de Sistemas | CCM Tecnologia",
+    "image": "/speakers/naiaraSouza.jfif",
+    "lecture": "Criatividade como softskill aplicada no front-end"
   }
 ]

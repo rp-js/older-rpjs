@@ -15,11 +15,11 @@ const ParticipateSection = () => (
             <div className={tw(`flex items-center mb-2`)}>
               <div className={tw(`text-xl`)}>Presencial</div>
             </div>
-            <p className={tw(`leading-loose`)}>Dabi Business Park dia 19/07 as 19:00</p>
+            <p className={tw(`leading-loose`)}>FATEC Ribeirão Preto dia 18/10 as 19:00</p>
             <p className={tw(`leading-loose text-gray-800 mb-2`)}>
-              R. Gen. Augusto Soares dos Santos, 100 - Parque Industrial Lagoinha
+              Av. Pio XII, 1255 - Vila Virginia, Ribeirão Preto - SP, 14030-250
             </p>
-            <LinkButton linkTo="https://goo.gl/maps/XxbdVSz3FgJ7dcNr8">
+            <LinkButton linkTo="https://goo.gl/maps/3uoeW3JUWmMoJ5bx8">
               <div className={tw(`flex flex-row items-center`)}>
                 <svg
                   className={tw(`mr-2`)}

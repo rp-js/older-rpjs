@@ -34,7 +34,7 @@ export default function Home({ id }: User) {
 
   async function handleSubscribe({ isRemote }: BodyType) {
     try {
-      await setSubscription({ userId: id, eventId: `62cc8377fd00d36941949b37`, isRemote });
+      await setSubscription({ userId: id, eventId: `633c1fcebbe2dc4a7a0d4db8`, isRemote });
       router.push(`/register-success`);
     } catch (e) {
       if (e instanceof Error) {
@@ -95,7 +95,7 @@ export const getServerSideProps: GetServerSideProps = async (context: GetSession
 
   if (user) {
     const isSub = await prisma.subscription.findMany({
-      where: { userId: user?.id, eventId: `62cc8377fd00d36941949b37` },
+      where: { userId: user?.id, eventId: `633c1fcebbe2dc4a7a0d4db8` },
     });
     if (isSub.length === 0) {
       return { props: user };

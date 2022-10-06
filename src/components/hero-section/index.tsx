@@ -37,7 +37,7 @@ const HeroSection = () => {
         <div className={tw(`max-w-xl mx-auto`)}>
           <p className={tw(`mt-10 text-gray-800 text-center text-xl lg:text-3xl`)}>
             <a href={discordLink} className={tw(`hover:underline`)}>
-              Dia 25/07 as 19:00 na Dabi Business Park
+              Dia 18/10 as 19:00 na FATEC Ribeirão Preto
             </a>
           </p>
         </div>
