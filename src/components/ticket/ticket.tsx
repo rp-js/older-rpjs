@@ -30,13 +30,11 @@ export const TicketComponent = ({
       <footer className="infos">
         <img src="logo.svg" alt="logo rpjs" />
         <div>
-          <div className="data">25 de julho às 19 horas</div>
+          <div className="data">18 de Outubro às 19 horas</div>
           {modo === `Presencial` ? (
             <>
-              <div className="informacoes-modo">Dabi Business Park</div>
-              <div className="informacoes-modo">
-                R. Gen. Augusto Soares dos Santos, 100 - Parque Industrial Lagoinha
-              </div>
+              <div className="informacoes-modo">FATEC Ribeirão Preto</div>
+              <div className="informacoes-modo">Av. Pio XII, 1255 - Vila Virginia, Ribeirão Preto - SP, 14030-250</div>
             </>
           ) : (
             <>
